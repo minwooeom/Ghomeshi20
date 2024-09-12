@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Answer These Questions!</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <div class="quiz-container">
+        <h1>This test mathematically measures how much you love me! 💕</h1>
+        <div id="question-container">
+            <h2 id="question-text"></h2>
+            <div id="choices"></div>
+        </div>
+        <button id="next-btn" class="next-btn" onclick="checkAnswer()">Check Answer</button>
+    </div>
+
+    <!-- Custom alert container -->
+    <div id="custom-alert" class="custom-alert">
+        <div class="alert-content">
+            <h2 id="alert-heading"></h2>
+            <img id="alert-image" src="" alt="Result Image" class="alert-image">
+            <button class="close-btn" onclick="closeAlert()">Next Question</button>
+        </div>
+    </div>
+
+    <script src="../js/quiz.js"></script>
+</body>
+
+</html>
