@@ -3,7 +3,7 @@ const quizData = [
         question: "Where was our first date?",
         choices: ["In my bedroom", "ELISA Steakhouse", "Gas Works Park", "Arcade"],
         correct: "Gas Works Park",
-        Image: "imgs/question1.jpg",
+        Image: "../imgs/question1.jpg",
         correctMessage: "That was easy... You got it right even with your CTE brain!",
         incorrectMessage: "The correct answer was Gas Works Park. You don't remember our first date? I'm disappointed."
     },
@@ -11,7 +11,7 @@ const quizData = [
         question: "What bar were you too scared to go into in Leavenworth?",
         choices: ["Rheinhaus", "LIV", "Q Nightclub", "The Loft"],
         correct: "The Loft",
-        Image: "imgs/question2.jpg",
+        Image: "../imgs/question2.jpg",
         correctMessage: "Nice you got it right! Usually you remember trauma better than good memories.",
         incorrectMessage: "The correct answer was The Loft. Usually you're supposed to remember trauma better than good memories?"
     },
@@ -19,7 +19,7 @@ const quizData = [
         question: "Who snores more?",
         choices: ["Samantha", "Minwoo"],
         correct: "Samantha",
-        Image: "imgs/question3.jpg",
+        Image: "../imgs/question3.jpg",
         correctMessage: "I'm glad you are humble enough to admit. I'm proud of you.",
         incorrectMessage: "The correct answer is you. Lying is a sin. We have video proof."
     },
@@ -27,7 +27,7 @@ const quizData = [
         question: "What’s is Min's favorite rogue flavor?",
         choices: ["Citrus", "Berry", "Wintergreen", "I dont do nicotine"],
         correct: "Wintergreen",
-        Image: "imgs/question4.jpg",
+        Image: "../imgs/question4.jpg",
         correctMessage: "Good job! You know me so well.",
         incorrectMessage: "The correct answer was Wintergreen. Remember it for the next time you go out and buy me some."
     },
@@ -35,7 +35,7 @@ const quizData = [
         question: "What is the NYT game Min always beats you at?",
         choices: ["The Mini", "Wordle", "Connections", "None of them"],
         correct: "The Mini",
-        Image: "imgs/question5.jpg",
+        Image: "../imgs/question5.jpg",
         correctMessage: "It's actually all of them, but I'll be nice. Now time to redeem yourself.",
         incorrectMessage: "The correct answer was The Mini. It's okay tho. You can redeem yourself."
     }

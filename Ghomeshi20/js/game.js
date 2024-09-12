@@ -1,10 +1,10 @@
 const cardImages = [
-    'imgs/card1.jpg', 'imgs/card1.jpg', // Pair 1
-    'imgs/card2.jpg', 'imgs/card2.jpg', // Pair 2
-    'imgs/card3.jpg', 'imgs/card3.jpg', // Pair 3
-    'imgs/card4.jpg', 'imgs/card4.jpg', // Pair 4
-    'imgs/card5.PNG', 'imgs/card5.PNG', // Pair 5
-    'imgs/card6.PNG', 'imgs/card6.PNG'  // Pair 6
+    '../imgs/card1.jpg', '../imgs/card1.jpg', // Pair 1
+    '../imgs/card2.jpg', '../imgs/card2.jpg', // Pair 2
+    '../imgs/card3.jpg', '../imgs/card3.jpg', // Pair 3
+    '../imgs/card4.jpg', '../imgs/card4.jpg', // Pair 4
+    '../imgs/card5.PNG', '../imgs/card5.PNG', // Pair 5
+    '../imgs/card6.PNG', '../imgs/card6.PNG'  // Pair 6
 ];
 
 let flippedCards = [];
